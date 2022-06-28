@@ -1,9 +1,9 @@
 #/bin/bash
 # 
 # Script: laufwerke.sh 
-# Beschreibung: Dieses Python3-Script listet angeschlossene Laufwere mit ihrer eigenen SATA-Geschwindigkeit
+# Beschreibung: Dieses BASH-Script listet angeschlossene Laufwere mit ihrer eigenen SATA-Geschwindigkeit
 # und der Geschwindkeit des SATA-Ports auf. Das Script hilft dabei, bei mehreren Laufwerken in einem Rechner
-# diese Laufwerke optimale auf die verfügbaren SATA-Ports zu verteilen.
+# diese Laufwerke optimale auf die verfügbaren (schnellen) SATA-Ports zu verteilen.
 # Autor: David Wolski, LinuxWelt (pcwelt@gmail.com).
 
 # preflight checks: is ' strings' available?
