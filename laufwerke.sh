@@ -1,8 +1,8 @@
 #/bin/bash
 # 
 # Script: laufwerke.sh 
-# Beschreibung: Dieses BASH-Script listet angeschlossene Laufwere mit ihrer eigenen SATA-Geschwindigkeit
-# und der Geschwindkeit des SATA-Ports auf. Das Script hilft dabei, bei mehreren Laufwerken in einem Rechner
+# Beschreibung: Dieses BASH-Script listet angeschlossene Laufwerke mit ihrer eigenen SATA-Geschwindigkeit
+# und der Geschwindigkeit des SATA-Ports auf. Das Script hilft dabei, bei mehreren Laufwerken in einem Rechner
 # diese Laufwerke optimale auf die verfügbaren (schnellen) SATA-Ports zu verteilen.
 # Autor: David Wolski, LinuxWelt (pcwelt@gmail.com).
 
