@@ -4,6 +4,11 @@ Scripts aus der LinuxWelt-Redaktion
 ## :page_with_curl: [gnomeidle.sh](https://github.com/LinuxWelt/Scripts/blob/main/gnomeidle.sh)
 BASH-Script für ein Terminal unter Gnome mit Wayland. Es dient dazu, einen angegebenen Befehl oder ein Befehlszeilenprogramm nur bei Inaktivität auszuführen, während keine Benutzereingaben erfolgen. Zwischendurch wird das Script über die Prozessverwaltung von Linux angehalten.
 
+## :page_with_curl: [fast.sh](https://github.com/LinuxWelt/Scripts/blob/main/fast.sh)
+Dieses BASH-Script dient dazu, einen Geschwindigkeitstest der Internetverbindung mit den Servern von fast.com (Netflix) als Gegenstelle durchzuführen. Dabei
+werden rund 1,22 GB Daten übertragen (Download) bevor das Script beendet wird. Das Script setzt die Tools "pv", "curl" und "mkfifo" voraus,
+die sich in den Paketquellen nahezu aller Linux-Distributionen finden.
+
 ## :page_with_curl: [laufwerke.sh](https://github.com/LinuxWelt/Scripts/blob/main/laufwerke.sh)
 Sind alle schnellen SSDs an den passenden SATA-III-Ports angeschlossen? Dieses BASH-Script der LinuxWelt-Redaktion listet angeschlossene Laufwerke mit ihrer eigenen SATA-Geschwindigkeit und der Geschwindigkeit des SATA-Ports auf.
 
