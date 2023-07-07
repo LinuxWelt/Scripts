@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script: gnomeidle.sh
-# Autor: david@rand10.net; LinuxWelt 2023-05
+# Author: LinuxWelt; author: David Wolski <pcwelt@gmail.com>;
 # Beschreibung: Dieses Script dient zur Prozesssteuerung in einem Terminal-Fenster unter Gnome mit Wayland.
 # Ein angegebener Befehl, Shell-Programm oder Script wird nur ausgeführt, wenn Gnome ohne Benutzereingaben
 # im Leerlauf ist. Während Benutzeraktivität wird der Prozess pausiert.
