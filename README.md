@@ -6,7 +6,7 @@ Eine Reihe gepackter Archivdateien liegen in den Formen "tar", "tar.gz", "tar.bz
 ´´´
 python tar2zip.py [Pfad]/*
 ´´´
-übergeben wird. Das Script arbeitet dabei rekursiv auch enthaltene Verzeichnisse im Archiv ab. Es benötigt keine weiteren Python-Bibliotheken auf den üblichen Linux-Distributionen. <a href="https://raw.githubusercontent.com/LinuxWelt/Scripts/refs/heads/main/tar2zip.py" download="tar2zip.py">Download</a>
+übergeben wird. Das Script arbeitet dabei rekursiv auch enthaltene Verzeichnisse im Archiv ab. Es benötigt keine weiteren Python-Bibliotheken auf den üblichen Linux-Distributionen. 
 
 ## :page_with_curl: [gnomeidle.sh](https://github.com/LinuxWelt/Scripts/blob/main/gnomeidle.sh)
 BASH-Script für ein Terminal unter Gnome mit Wayland. Es dient dazu, einen angegebenen Befehl oder ein Befehlszeilenprogramm nur bei Inaktivität auszuführen, während keine Benutzereingaben erfolgen. Zwischendurch wird das Script über die Prozessverwaltung von Linux angehalten.
