@@ -1,6 +1,13 @@
 # Scripts
 Scripts aus der LinuxWelt-Redaktion
 
+## :page_with_curl: [gnomeidle.sh](https://github.com/LinuxWelt/Scripts/blob/main/tar2zip.py)
+Eine Reihe gepackter Archivdateien liegen in den Formen "tar", "tar.gz", "tar.bz2" oder "tar.xz" vor - die gebräuchlichen Archivtypen für gepackte Dateien unter Linux. Nun sollen diese Dateien aber an Windows-Anwender gehen. Und diese stehen oft ratlos vor den dort unbekannten Dateitypen und Rückfragen gehen ein. Dieses Python-Script wandelt Archive wie "tar.gz", "tar.bz2" oder "tar.xz" nach Zip um. Entweder einzelne Dateien oder auch alle Archive in einem Verzeichnis, das nach dem Schema 
+´´´
+python tar2zip.py [Pfad]/*
+´´´
+übergeben wird. Das Script arbeitet dabei rekursiv auch enthaltene Verzeichnisse im Archiv ab. Es benötigt keine weiteren Python-Bibliotheken auf den üblichen Linux-Distributionen.
+
 ## :page_with_curl: [gnomeidle.sh](https://github.com/LinuxWelt/Scripts/blob/main/gnomeidle.sh)
 BASH-Script für ein Terminal unter Gnome mit Wayland. Es dient dazu, einen angegebenen Befehl oder ein Befehlszeilenprogramm nur bei Inaktivität auszuführen, während keine Benutzereingaben erfolgen. Zwischendurch wird das Script über die Prozessverwaltung von Linux angehalten.
 
