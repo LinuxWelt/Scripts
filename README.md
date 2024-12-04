@@ -1,7 +1,7 @@
 # Scripts
 Scripts aus der LinuxWelt-Redaktion
 
-## :page_with_curl: [tar2zip.py](https://github.com/LinuxWelt/Scripts/blob/main/tar2zip.py)
+## :page_with_curl: [tar2zip.py](https://github.com/LinuxWelt/Scripts/blob/main/tar2zip.py) [Download](blob:https://github.com/051782fa-e72b-40f4-b910-d0e9c302acff)
 Eine Reihe gepackter Archivdateien liegen in den Formen "tar", "tar.gz", "tar.bz2" oder "tar.xz" vor - die gebräuchlichen Archivtypen für gepackte Dateien unter Linux. Nun sollen diese Dateien aber an Windows-Anwender gehen. Und diese stehen oft ratlos vor den dort unbekannten Dateitypen und Rückfragen gehen ein. Dieses Python-Script wandelt Archive wie "tar.gz", "tar.bz2" oder "tar.xz" nach Zip um. Entweder einzelne Dateien oder auch alle Archive in einem Verzeichnis, das nach dem Schema 
 ´´´
 python tar2zip.py [Pfad]/*
